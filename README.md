@@ -1,34 +1,39 @@
-# Secure Hotel Network Infrastructure Design using Cisco Packet Tracer
+Enterprise Hotel Network Design | Cisco Packet Tracer 🏨🌐
 
-## Overview
-This project demonstrates the design and implementation of a secure hotel network using Cisco Packet Tracer. The network simulates a real-world hotel environment with multiple departments such as Reception, Administration, Guest Rooms, and IT Department, with proper segmentation and security controls.
+As part of my learning journey toward becoming a Penetration Tester, I designed and implemented a secure enterprise-level hotel network infrastructure using Cisco Packet Tracer. This project simulates a real-world enterprise environment and demonstrates secure network segmentation, dynamic routing, and infrastructure protection.
 
-## Security Implementation
-The network is secured using VLAN segmentation and controlled remote access. Only an authorized Test PC located in the IT Department is allowed to remotely access network devices via SSH for management purposes. Unauthorized devices are restricted from accessing critical network infrastructure.
+The network consists of three floors, each containing multiple departments isolated using VLANs with dedicated IP networks. Inter-VLAN communication is enabled using Router-on-a-Stick, while routers are interconnected using serial links and configured with OSPF to dynamically exchange routes.
 
-## Objectives
-- Design a secure and scalable hotel network
-- Segment departments using VLANs
-- Implement Inter-VLAN routing
-- Restrict administrative access to authorized devices only
-- Configure secure remote access using SSH
-- Provide automatic IP addressing using DHCP
+Key Features
 
-## Network Features
-- VLAN segmentation for each department
-- Inter-VLAN routing using Router-on-a-Stick
-- Secure SSH remote management
-- Access restricted to authorized Test PC only
-- DHCP for automatic IP assignment
-- Full connectivity testing between devices
+VLAN segmentation for all departments
 
-## Technologies Used
-- Cisco Packet Tracer
-- VLAN Configuration
-- Inter-VLAN Routing
-- SSH Security Configuration
-- DHCP Configuration
-- Cisco Routers and Switches
+Inter-VLAN routing (Router-on-a-Stick)
 
-## Security Purpose
-This project demonstrates enterprise-level network security practices, including access control, segmentation, and secure device management, which are essential skills for cybersecurity and penetration testing roles.
+OSPF dynamic routing between routers
+
+DHCP configuration for automatic IP assignment
+
+Secure remote access using SSH
+
+Port Security using Sticky MAC and Shutdown mode
+
+Wireless network integration using Access Points
+
+Structured enterprise network design
+
+Security Implementation
+
+Security measures were implemented to simulate real-world enterprise protection, including SSH for secure remote management, Port Security to prevent unauthorized access, VLAN isolation to reduce attack surface, and a dedicated Test-PC to validate secure administrative access.
+
+Skills Demonstrated
+
+Enterprise Network Design, VLAN Configuration, Inter-VLAN Routing, OSPF, DHCP, SSH, Port Security, Network Segmentation, and Infrastructure Security.
+
+Tools Used
+
+Cisco Packet Tracer and Cisco IOS CLI.
+
+Purpose
+
+This project is part of my cybersecurity and penetration testing learning path, helping me build strong foundations in enterprise networking and secure network infrastructure.
